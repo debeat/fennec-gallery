@@ -28,8 +28,11 @@ var FennecGallery = {
 	},
 
 	isGalleryPage: function(contentDocument) {
+		return isPicassaGaller;
+	},
 
-		return true;
+	isPicassaGallery: function( contentDocument ) {
+		
 	}
 
 };
