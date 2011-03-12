@@ -13,21 +13,22 @@ var FennecGallery = {
 	},
 
 	buildGallery : function() {
-		var page = Browser.selectedBrowser.currentURI.spec;
+		var page = Browser.contentDocument;
 	},
 
 	updatePageAction : function(aAction) {
 		if( Services.prefs.getBoolPref("extensions.fennec-gallery.enabled") == false ) {
 			return false;
 		}
-		var page = Browser.selectedBrowser.currentURI.spec;
+		var page = Browser.contentDocument;
 		if( !this.isGalleryPage(page) ) {
 			return false;
 		}
 		return true;
 	},
 
-	isGalleryPage: function(pageURL) {
+	isGalleryPage: function(contentDocument) {
+
 		return true;
 	}
 
