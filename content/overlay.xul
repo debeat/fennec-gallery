@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://fennec-gallery/skin/overlay.css" type="text/css"?>
+<!DOCTYPE window [
+<!ENTITY % overlayDTD SYSTEM "chrome://fennec-gallery/locale/overlay.dtd">
+%overlayDTD;
+]>
+
+<overlay id="fennec-gallery-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/javascript" src="chrome://fennec-gallery/content/overlay.js" />
+
+	<hbox id="pageactions-container">
+		<pageaction id="fennec-gallery-render-gallery"
+			title="Build Gallery"
+			onclick="FennecGallery.buildGallery();" />
+	</hbox>
+</overlay>

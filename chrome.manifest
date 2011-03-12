@@ -1,0 +1,4 @@
+content fennec-gallery content/
+locale  fennec-gallery en-US locale/en-US/
+skin    fennec-gallery classic/1.0 skin/
+overlay chrome://browser/content/browser.xul	chrome://fennec-gallery/content/overlay.xul

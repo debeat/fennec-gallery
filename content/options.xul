@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<setting pref="extensions.fennec-gallery.enabled" type="bool" title="Enable Gallery" />
+	<setting pref="extensions.fennec-gallery.precache" type="bool" title="Precache">
+		Should the gallery pre-cache all images?
+	</setting>
+</vbox>
